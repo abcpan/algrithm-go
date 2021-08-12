@@ -72,8 +72,6 @@ func (this *MyLinkedList) AddAtIndex(index int, val int)  {
 	this.size++
 }
 
-
-/** Delete the index-th node in the linked list, if the index is valid. */
 func (this *MyLinkedList) DeleteAtIndex(index int)  {
 	if index >= this.size || index < 0 {
 		return
